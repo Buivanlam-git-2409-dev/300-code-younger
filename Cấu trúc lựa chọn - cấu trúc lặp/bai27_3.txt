@@ -1,0 +1,15 @@
+Bài tập: Hai số liên tiếp đầu tiên có hai thừa số nguyên tố khác biệt là: 
+14 = 2 × 7 
+15 = 3 x 5 
+Ba số liên tiếp đầu tiên có ba thừa số nguyên tố khác biệt là: 
+644 = 22 × 7 × 23 
+645 = 3 × 5 × 43 
+646 = 2 × 17 × 19. 
+Tìm bốn số liên tiếp đầu tiên có bốn thừa số nguyên tố khác biệt. Hãy cho biết số 
+đầu tiên của bốn số này. 
+Kết quả: 134043 
+Mặc dù giải thuật tìm các thừa số nguyên tố đã viết tốt, nhưng chương trình vẫn chưa 
+đủ nhanh. Ta dùng "sàng Eratosthenes" (xem bài 58, trang 122) để tạo mảng các số 
+nguyên tố, rồi dùng mảng này tăng tốc việc tính các thừa số nguyên tố. Ta giới hạn 
+với các số nguyên tố dưới 10^4 (1229 số). Bạn cũng lưu ý biến t trong hàm test(), 
+biến này giúp tránh đếm các thừa số nguyên tố lặp lại. 

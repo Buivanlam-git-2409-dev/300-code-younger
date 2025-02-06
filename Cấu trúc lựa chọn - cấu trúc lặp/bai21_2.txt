@@ -1,0 +1,13 @@
+Bài tập: Một môn học có các điểm thành phần như sau: labs (30%), quizes (20%), 
+presentation (10%), mỗi cột điểm thành phần phải lớn hơn 0 mới đủ điều kiện thi hết 
+môn (final exam). Điểm thi hết môn (40%) không được dưới 4. Điểm tổng kết phải 
+từ 5 trở lên mới qua môn. Sau khi có thông tin các điểm thành phần, hãy tính điểm 
+thi hết môn tối thiểu cần phải đạt được để qua môn. 
+
+labs quizes presentation: 3.7 4.4 2.1 
+Diem thi toi thieu: 7 
+
+Tính toán sơ bộ, điều kiện qua môn là: 
+0.4 * final + (0.3 * labs + 0.2 * quizes + 0.1 * presentation) ≥ 5 và final ≥ 4 
+=> final ≥ (5 - (0.3 * labs + 0.2 * quizes + 0.1 * presentation)) / 0.4 và final >= 4 
+Như vậy: final = max(4, (5 - (0.3 * labs + 0.2 * quizes + 0.1 * presentation)) / 0.4) 

@@ -1,0 +1,4 @@
+Bài tập: Viết chương trình thực hiện những yêu cầu sau: 
+a. Tạo mảng một chiều n phần tử nguyên có giá trị nhập vào từ bàn phím. Giá 
+trị của các phần tử thuộc đoạn [0, n - 1]. 
+b. In ra các phần tử trong mảng có trị phân biệt. 

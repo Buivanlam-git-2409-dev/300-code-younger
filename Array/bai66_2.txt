@@ -1,0 +1,3 @@
+Ví dụ, cho mảng { 3, 2, 5, 4, 2, 1 }, đợt so sánh đầu cho các cặp minmax (2, 3), (4, 
+5), (1, 2). Đặt cặp minmax đầu tiên làm kết quả rồi cập nhật khi so sánh với các cặp 
+khác, kết quả cuối là cặp minmax (1, 5). 

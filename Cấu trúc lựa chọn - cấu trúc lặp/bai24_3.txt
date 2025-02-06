@@ -1,0 +1,9 @@
+Bài tập: Chuỗi “tự lũy thừa” (self powers) 1^1 + 2^2 + 3^3 + ... + 10^10 = 10405071317. 
+Tìm mười chữ số cuối cùng của chuỗi 1^1 + 2^2 + 3^3 + ... + 1000^1000 
+Kết quả: 9110846700 
+Vì chỉ cần mười chữ số cuối cùng của tổng, ta dùng tổng % 1e10 để cắt lấy 10 chữ 
+số cuối. Ta cũng áp dụng số học đồng dư để tránh tính toán số lớn, lưu ý các tính 
+chất sau: 
+(a * b) % c = ( (a % c) * (b % c) ) % c dùng khi tính giai thừa 
+(a + b) % c = ( (a % c) + (b % c) ) % c dùng khi tính tổng giai thừa  
+Do làm việc với số lớn, ta dùng kiểu unsigned long long mới có kết quả đúng. 

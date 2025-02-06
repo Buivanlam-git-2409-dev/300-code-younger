@@ -1,0 +1,7 @@
+Bài tập: Amino axcid chỉ chứa các nguyên tố O, C, N, S, H. Nguyên tử lượng của 
+các nguyên tố này là: 
+O (15.9994), C (12.011), N (14.00674), S (32.066), H (1.00794) 
+Ví dụ, công thức hóa học của alanine là O2C3NH7. Lưu ý số phân tử có thể là 1 
+(không ghi ký số) hoặc nhiều hơn 10 (hơn 1 ký số). 
+Viết chương trình đọc công thức một amino acid từ bàn phím và sau đó tính toán 
+phân tử lượng tương ứng.

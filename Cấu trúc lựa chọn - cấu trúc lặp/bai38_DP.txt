@@ -1,0 +1,9 @@
+Bài tập: Tiền tệ ở Anh được tạo thành từ bảng Anh £ và pence (p), và có tám loại tiền xu 
+được dùng: 1p, 2p, 5p, 10p, 20p, 50p, £1 (100p) và £2 (200p). 
+Có thể tạo được £2 theo cách sau: 
+1×£1 + 1×50p + 2×20p + 1×5p + 1×2p + 3×1p 
+Có bao nhiều cách khác nhau có thể tạo được £2 từ số lượng bất kỳ tiền xu các loại? 
+Kết quả: 73682 
+Nếu bạn sử dụng 8 vòng lặp lồng nhau, mỗi vòng lặp cho một loại tiền xu, chương trình 
+sẽ chạy cực kỳ chậm. Ta nhận thấy bài toán có một số tính chất cho phép áp dụng quy 
+hoạch động (dynamic programming). 

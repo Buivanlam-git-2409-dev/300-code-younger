@@ -1,0 +1,7 @@
+Bài tập: Bài tập trên cho thấy chỉ có ba số bằng tổng lũy thừa 4 của các chữ số của 
+chúng (số Armstrong bậc 4): 1634, 8208, 9474 
+Ta không tính số 1, dù 1 = 14, vì vế phải không xem là một tổng. 
+Tổng của ba số trên là 1634 + 8208 + 9474 = 19316. 
+Tìm tổng của tất cả các số bằng tổng lũy thừa 5 của các chữ số của chúng. 
+Kết quả: 443839 
+Lưu ý, trị tối đa của 1 chữ số là 95, số lớn nhất phải xét là 6 × 95 = 354294.

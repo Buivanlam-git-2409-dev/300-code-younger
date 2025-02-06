@@ -1,0 +1,9 @@
+Bài tập: Xem xét tất cả các tổ hợp ab với 2 ≤ a ≤ 5 và 2 ≤ b ≤ 5: 
+22 = 4, 23 = 8, 24 = 16, 25 = 32 
+32 = 9, 33 = 27, 34 = 81, 35 = 243 
+42 = 16, 43 = 64, 44 = 256, 45 = 1024 
+52 = 25, 53 = 125, 54 = 625, 55 = 3125 
+Nếu sắp xếp chúng và xóa các kết quả trùng lặp, ta nhận được dãy gồm 15 số khác 
+nhau: 4, 8, 9, 16, 25, 27, 32, 64, 81, 125, 243, 256, 625, 1024, 3125 
+Có bao nhiêu kết quả phân biệt trong dãy tạo bởi ab với 2 ≤ a ≤ 100 và 2 ≤ b ≤ 100? 
+Kết quả: 9183

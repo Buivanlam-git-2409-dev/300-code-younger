@@ -1,0 +1,3 @@
+Bài tập: Trong ví dụ của bài tập trên, bạn thấy chuỗi hailstones bắt đầu từ 15 có 18 số. 
+Với n ban đầu là bao nhiêu, n nhỏ hơn một triệu, chuỗi hailstones tạo ra sẽ dài nhất. 
+Kết quả: 837799
